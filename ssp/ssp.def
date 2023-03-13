@@ -1,0 +1,10 @@
+LIBRARY	ssp
+EXPORTS
+	WSPStartup
+;Helper function for pure managed code
+	SNPostMessage
+;Extensions for customized applications
+	SNGetCurrentPeerId
+	SNCreatePeer
+	SNActivatePeer
+	SNShutdownPeer

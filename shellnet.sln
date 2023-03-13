@@ -1,0 +1,134 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shellnet", "shellnet\shellnet.csproj", "{2B59464E-5585-4B83-A7FC-FCD53932D637}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ws2test", "ws2test\ws2test.vcproj", "{0ACA14DE-AE40-4924-BDA3-86894A743CF2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netlib", "netlib\netlib.csproj", "{CD1D19F5-7F6F-48B8-80B9-4858C0CACA5E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamedPipeChannel", "NamedPipeChannel\NamedPipeChannel.csproj", "{A9C8A1BE-C9A2-4AED-97AC-BE7FD2599003}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ws2simpleapp", "ws2simpleapp\ws2simpleapp.csproj", "{DEE89CE3-C889-42B9-9AA3-7A16C652FDFF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FD641125-DDB7-443C-AB61-F3A735CA02A2} = {FD641125-DDB7-443C-AB61-F3A735CA02A2}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "channeltest", "channeltest\channeltest.csproj", "{6886EDA0-C3B3-43C0-9101-9F266D9C0872}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ws2sample", "ws2sample\ws2sample.vcproj", "{4BE4D748-048F-47D0-89E0-000451A360FB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ssp", "ssp\ssp.vcproj", "{FD641125-DDB7-443C-AB61-F3A735CA02A2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sspinst", "sspinst\sspinst.vcproj", "{63FE214A-2176-43A4-8FA4-FB84A06D366D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "spsp", "spsp\spsp.vcproj", "{7BDC744C-EBB4-4A41-9343-18D38CF274FA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 11
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {FBE3EA43-A3B7-476A-8BE9-63C0E0F94C56}
+		SccProjectUniqueName1 = shellnet\\shellnet.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = shellnet\\
+		SccProjectUniqueName2 = ws2test\\ws2test.vcproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = ws2test\\
+		SccProjectUniqueName3 = netlib\\netlib.csproj
+		SccLocalPath3 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection3 = netlib\\
+		SccProjectUniqueName4 = NamedPipeChannel\\NamedPipeChannel.csproj
+		SccLocalPath4 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection4 = NamedPipeChannel\\
+		SccProjectUniqueName5 = ws2simpleapp\\ws2simpleapp.csproj
+		SccLocalPath5 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection5 = ws2simpleapp\\
+		SccProjectUniqueName6 = channeltest\\channeltest.csproj
+		SccLocalPath6 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection6 = channeltest\\
+		SccProjectUniqueName7 = ssp\\ssp.vcproj
+		SccLocalPath7 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection7 = ssp\\
+		SccProjectUniqueName8 = ws2sample\\ws2sample.vcproj
+		SccLocalPath8 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection8 = ws2sample\\
+		SccProjectUniqueName9 = sspinst\\sspinst.vcproj
+		SccLocalPath9 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection9 = sspinst\\
+		SccProjectUniqueName10 = spsp\\spsp.vcproj
+		SccLocalPath10 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection10 = spsp\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2B59464E-5585-4B83-A7FC-FCD53932D637}.Debug.ActiveCfg = Debug|.NET
+		{2B59464E-5585-4B83-A7FC-FCD53932D637}.Debug.Build.0 = Debug|.NET
+		{2B59464E-5585-4B83-A7FC-FCD53932D637}.Release.ActiveCfg = Release|.NET
+		{2B59464E-5585-4B83-A7FC-FCD53932D637}.Release.Build.0 = Release|.NET
+		{0ACA14DE-AE40-4924-BDA3-86894A743CF2}.Debug.ActiveCfg = Debug|Win32
+		{0ACA14DE-AE40-4924-BDA3-86894A743CF2}.Release.ActiveCfg = Release|Win32
+		{CD1D19F5-7F6F-48B8-80B9-4858C0CACA5E}.Debug.ActiveCfg = Debug|.NET
+		{CD1D19F5-7F6F-48B8-80B9-4858C0CACA5E}.Debug.Build.0 = Debug|.NET
+		{CD1D19F5-7F6F-48B8-80B9-4858C0CACA5E}.Release.ActiveCfg = Release|.NET
+		{CD1D19F5-7F6F-48B8-80B9-4858C0CACA5E}.Release.Build.0 = Release|.NET
+		{A9C8A1BE-C9A2-4AED-97AC-BE7FD2599003}.Debug.ActiveCfg = Debug|.NET
+		{A9C8A1BE-C9A2-4AED-97AC-BE7FD2599003}.Debug.Build.0 = Debug|.NET
+		{A9C8A1BE-C9A2-4AED-97AC-BE7FD2599003}.Release.ActiveCfg = Release|.NET
+		{A9C8A1BE-C9A2-4AED-97AC-BE7FD2599003}.Release.Build.0 = Release|.NET
+		{DEE89CE3-C889-42B9-9AA3-7A16C652FDFF}.Debug.ActiveCfg = Debug|.NET
+		{DEE89CE3-C889-42B9-9AA3-7A16C652FDFF}.Debug.Build.0 = Debug|.NET
+		{DEE89CE3-C889-42B9-9AA3-7A16C652FDFF}.Release.ActiveCfg = Release|.NET
+		{DEE89CE3-C889-42B9-9AA3-7A16C652FDFF}.Release.Build.0 = Release|.NET
+		{6886EDA0-C3B3-43C0-9101-9F266D9C0872}.Debug.ActiveCfg = Debug|.NET
+		{6886EDA0-C3B3-43C0-9101-9F266D9C0872}.Release.ActiveCfg = Release|.NET
+		{4BE4D748-048F-47D0-89E0-000451A360FB}.Debug.ActiveCfg = Debug|Win32
+		{4BE4D748-048F-47D0-89E0-000451A360FB}.Release.ActiveCfg = Release|Win32
+		{FD641125-DDB7-443C-AB61-F3A735CA02A2}.Debug.ActiveCfg = Debug|Win32
+		{FD641125-DDB7-443C-AB61-F3A735CA02A2}.Debug.Build.0 = Debug|Win32
+		{FD641125-DDB7-443C-AB61-F3A735CA02A2}.Release.ActiveCfg = Release|Win32
+		{FD641125-DDB7-443C-AB61-F3A735CA02A2}.Release.Build.0 = Release|Win32
+		{63FE214A-2176-43A4-8FA4-FB84A06D366D}.Debug.ActiveCfg = Debug|Win32
+		{63FE214A-2176-43A4-8FA4-FB84A06D366D}.Debug.Build.0 = Debug|Win32
+		{63FE214A-2176-43A4-8FA4-FB84A06D366D}.Release.ActiveCfg = Release|Win32
+		{63FE214A-2176-43A4-8FA4-FB84A06D366D}.Release.Build.0 = Release|Win32
+		{7BDC744C-EBB4-4A41-9343-18D38CF274FA}.Debug.ActiveCfg = Debug|Win32
+		{7BDC744C-EBB4-4A41-9343-18D38CF274FA}.Debug.Build.0 = Debug|Win32
+		{7BDC744C-EBB4-4A41-9343-18D38CF274FA}.Release.ActiveCfg = Release|Win32
+		{7BDC744C-EBB4-4A41-9343-18D38CF274FA}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,4 @@
+LIBRARY	spsp
+EXPORTS
+	WSPStartup
+	
